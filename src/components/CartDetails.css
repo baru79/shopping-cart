@@ -1,0 +1,17 @@
+.cart-details {
+    overflow: auto;
+    max-height: 200px;
+}
+
+.cart-details::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.cart-details > li { 
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    column-gap: 8px;
+    row-gap: 2px;
+    text-align: start;
+    align-items: center;
+}
