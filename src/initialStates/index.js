@@ -1,3 +1,3 @@
-import { getLocalStorage } from "../helpers";
+import { getLocalStorage } from '../helpers';
 
-export const cartInitialState = JSON.parse(getLocalStorage("cart")) || [];
+export const cartInitialState = JSON.parse(getLocalStorage('cart')) || [];

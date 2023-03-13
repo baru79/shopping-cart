@@ -1,23 +1,23 @@
-# Enunciado
+# Create a shopping cart in React.js using useContext, useReducer and useId hooks.
 
 ## Ecommerce:
 
-✅ Muestra una lista de productos que vienen de un JSON.</br>
+✅ Shows a list of products that come from a JSON.</br>
 
-✅ Añade un filtro por categoría.</br>
+✅ Add a filter by category.</br>
 
-✅ Añade un filtro por precio.</br>
+✅ Add a filter by price.</br>
 
-✅ Haz uso de useContext para evitar pasar props innecesarias.</br>
+✅ Make use of useContext to avoid passing unnecessary props.</br>
 
-## Carrito:
+## Cart:
 
-✅ Haz que se puedan añadir los productos a un carrito.</br>
+✅ Make it possible to add products to a cart.</br>
 
-✅ Haz que se puedan eliminar los productos del carrito.</br>
+✅ Make it possible to remove products from the cart.</br>
 
-✅ Haz que se puedan modificar la cantidad de productos del carrito.</br>
+✅ Make it possible to modify the number of products in the cart.</br>
 
-✅ Sincroniza los cambios del carrito con la lista de productos.</br>
+✅ Synchronize the changes of the cart with the list of products.</br>
 
-✅ Guarda en un localStorage el carrito para que se recupere al recargar la página. (da puntos)</br>
+✅ Save the cart in a localStorage so that it can be recovered when you reload the page. (bonus points)</br>
